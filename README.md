@@ -8,10 +8,12 @@ This project is my implementation of the etch-a-sketch project from [Link](https
 
 ## Skills used in this project
 
-    ### Languages
-        - HTML
-        - CSS
-        - JavaScript
+### Languages
 
-    ### Techniques & Methods
-         -
+- HTML
+- CSS
+- JavaScript
+
+### Techniques & Methods
+
+-
