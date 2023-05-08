@@ -5,6 +5,8 @@ body {
 .title {
   font-family: monospace;
   color: white;
+  border: 1px solid white;
+  padding: 5px;
 }
 
 .container {
@@ -19,7 +21,7 @@ body {
   flex-wrap: wrap;
   margin-top: 20px;
   border: 3px solid black;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   padding: 5px;
   box-shadow: 5px 5px 1px black;
 }
@@ -32,7 +34,8 @@ body {
 }
 
 .box {
-  margin: 2px;
+  /* margin: 1px; */
+  border: 1px solid black;
   height: 20px;
   width: 20px;
   flex: 1;
@@ -45,9 +48,44 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 img {
   height: 25px;
+}
+
+#menu {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 3px solid black;
+  box-shadow: 5px 5px 1px black;
+  padding: 10px;
+}
+
+.menu-items {
+  height: 50px;
+  width: 50px;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 5px 5px 1px black;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#black {
+  background-color: black;
 }
