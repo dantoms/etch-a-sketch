@@ -55,15 +55,23 @@ img {
   height: 25px;
 }
 
-#menu {
+#menu, #options {
   margin-top: 20px;
   margin-right: 20px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   border: 3px solid black;
   box-shadow: 5px 5px 1px black;
   padding: 10px;
+}
+
+#menu {
+  justify-content: space-around;
+}
+
+#options {
+  color: white;
 }
 
 .menu-items {

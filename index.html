@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Etch-A-Sketch</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="bar">
-      <div class="header">
-        <h1 class="title">Etch-A-Sketch</h1>
-      </div>
-      <a
-        class="github-link"
-        target="_blank"
-        href="https://github.com/schism-schmism/"
-        ><img src="images/github-mark/github-mark-white.svg" alt="github logo"
-      /></a>
-    </div>
 
-    <div class="container">
-      <div id="menu">
-        <div class="menu-items" id="red"></div>
-        <div class="menu-items" id="green"></div>
-        <div class="menu-items" id="blue"></div>
-        <div class="menu-items" id="black"></div>
-        <img
-          class="menu-items"
-          id="multicolor"
-          src="images/multicolor.jpg"
-          alt="multicolor-option"
-        />
-        <img
-          class="menu-items"
-          id="reset"
-          src="images/reset.png"
-          alt="reset-option"
-        />
-      </div>
-      <div id="grid-container"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etch-A-Sketch</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="bar">
+    <div class="header">
+      <h1 class="title">Etch-A-Sketch</h1>
     </div>
-  </body>
+    <a class="github-link" target="_blank" href="https://github.com/schism-schmism/"><img
+        src="images/github-mark/github-mark-white.svg" alt="github logo" /></a>
+  </div>
+
+  <div class="container">
+    <div id="menu">
+      <div class="menu-items" id="red"></div>
+      <div class="menu-items" id="green"></div>
+      <div class="menu-items" id="blue"></div>
+      <div class="menu-items" id="black"></div>
+      <img class="menu-items" id="multicolor" src="images/multicolor.jpg" alt="multicolor-option" />
+      <img class="menu-items" id="reset" src="images/reset.png" alt="reset-option" />
+    </div>
+    <div id="grid-container"></div>
+    <div id="options">
+      <label for="flow">Flow</label>
+      <input id="flow" type="checkbox" name="flow">
+    </div>
+  </div>
+</body>
+
 </html>
