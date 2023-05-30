@@ -31,6 +31,10 @@ const colors = document.querySelectorAll('.menu-items');
 
 colors.forEach((item) => {
   item.addEventListener('click', function(e) {
+    colors.forEach((color) => {
+      color.classList.remove('selected')
+    });
+    e.target.classList.add("selected")
     color = e.target.id;
     if (color === 'reset') {
       console.log('Reload clicked!');
