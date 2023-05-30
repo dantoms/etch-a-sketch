@@ -55,7 +55,7 @@ img {
   height: 25px;
 }
 
-#menu, #options {
+#menu, #instructions {
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
@@ -70,8 +70,19 @@ img {
   justify-content: space-around;
 }
 
-#options {
+#instructions {
   color: white;
+}
+
+#instructions-title {
+  text-decoration: underline;
+  font-size: 1.3em;
+}
+
+#instructions-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .menu-items {

@@ -1,4 +1,4 @@
-const squares = 32;
+const squares = 16;
 const gridContainer = document.getElementById('grid-container');
 gridContainer.style.width = `${squares * 20}px`;
 let color = 'purple';
@@ -30,7 +30,7 @@ const boxes = document.querySelectorAll('.box');
 const colors = document.querySelectorAll('.menu-items');
 
 colors.forEach((item) => {
-  item.addEventListener('click', function (e) {
+  item.addEventListener('click', function(e) {
     color = e.target.id;
     if (color === 'reset') {
       console.log('Reload clicked!');
@@ -40,7 +40,7 @@ colors.forEach((item) => {
 });
 
 boxes.forEach((element) => {
-  element.addEventListener('click', function (e) {
+  element.addEventListener('click', function(e) {
     if (color === 'multicolor') {
       e.target.style.backgroundColor = `rgb(${randomRgbColor()})`;
     } else {
