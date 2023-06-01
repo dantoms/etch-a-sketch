@@ -13,7 +13,4 @@ This project is my implementation of the etch-a-sketch project from [The Odin Pr
 - HTML
 - CSS
 - JavaScript
-
-### Techniques & Methods
-
--
+ 
